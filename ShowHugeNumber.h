@@ -6,3 +6,6 @@
 #define GIT_GIT_SHOWHUGENUMBER_H
 
 #endif //GIT_GIT_SHOWHUGENUMBER_H
+
+
+extern void printHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt);
