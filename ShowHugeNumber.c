@@ -3,3 +3,8 @@
 //
 
 #include "ShowHugeNumber.h"
+4void printHugeFloat (const HugeFloat* hugeFloat) {
+    char* hugeFloatString = HugeFloatToString (hugeFloat);
+    printf ("%s\n", hugeFloatString);
+    free (hugeFloatString);
+}
